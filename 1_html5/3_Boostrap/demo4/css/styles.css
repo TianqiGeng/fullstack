@@ -1,0 +1,25 @@
+.navbar-toggler{
+    margin-left:-15px;
+}
+.navbar span b{
+  
+    margin-left:-19vw;
+    padding-top:1vh;
+    font-size: 1.5em;
+}
+
+.icon-search{
+    background-image: url('/images/searchpng.png');
+   
+   
+}
+.carousel-inner img{
+    height:50vh;
+}
+.card imgk{
+    background-color: RGB(255,105,180);
+    height:25vh;
+    width: 100%;
+    font-size: 1.8em;
+    padding-top:3em;
+}
