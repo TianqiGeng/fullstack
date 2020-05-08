@@ -1,0 +1,18 @@
+Iwork{
+    font-size: 22px;
+    color:green;
+}
+.name{
+    font-size: 22px;
+    color:red;
+    }
+
+#div{
+    color:blue;
+}
+body
+{
+    background-image:url('./2.jpg');
+    background-color:#cccccc;
+    background-repeat:no-repeat;
+}
