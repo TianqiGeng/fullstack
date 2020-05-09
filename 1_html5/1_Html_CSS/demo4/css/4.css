@@ -1,0 +1,94 @@
+body{
+    margin:0;
+}
+.content{
+    display: flex;
+   
+}
+.left{
+   
+    width: 22%;
+    height:100%;
+    background-color: white;
+    text-align: center;
+    position:fixed;
+}
+#info{
+    background-color: RGB(77,77,77);
+    height:180px;
+}
+#info img{
+    width: 100px;
+    height: 100px;
+    border: 4px solid RGB(234,234,234); 
+    border-radius: 50px;
+    margin-top:120px;
+    
+}
+#info2{
+    margin-top:80px;
+}
+nav li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+#info2 h1{
+    color:RGB(105,105,105);
+    font-size: 1.5em;
+}
+nav,li,a{
+    color: RGB(153,153,153);
+}
+.menu{
+  
+    margin-top:3em;
+
+}
+.menu li{
+    margin-top:1em;
+}
+.menu a{
+    align-items:center; 
+    margin-right: 2em;
+    width:100%;
+    margin-top:2em;
+}
+.icon{
+    text-align: center;
+    padding-left:6.5em;
+    margin-top:2em;
+}
+.icon li{
+    float:left;
+    margin-right:1em;
+}
+.right{
+    position:absolute;
+    width: 78%;
+    flex-grow: 1;
+    background-color:RGB(234,234,234);
+    margin-left:22%;
+   
+}
+.card{
+    background-color: white;
+    margin:50px;
+}
+.article{
+    padding:30px;
+}
+.article header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article article{
+    margin-top:10px;
+}
+.article footer{
+    display: flex;
+    justify-content: space-between;
+}
+
