@@ -19,7 +19,7 @@ section{
     padding:10px;
     color:white  !important;
     font-size: 20px;
-    background-image: url('../images/02.jpg'); 
+    background-image: url('https://picsum.photos/1200/500?random&t=${Math.random()}'); 
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -40,7 +40,7 @@ img{
 #My2{
     height: 480px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url('../images/03.jpg');
+    background-image: url('https://picsum.photos/1200/500?random&t=${Math.random()+9}');
     background-attachment: scroll;
     
 }
