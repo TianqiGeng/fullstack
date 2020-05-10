@@ -1,0 +1,47 @@
+.box {
+    border: solid 1px black;
+    margin: 50px;
+    padding: 10px 10px;
+}
+
+span {
+    display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+    .one {
+        background: red;
+    }
+
+   .lt500 {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    .two {
+        background: yellow;
+    }
+
+   .bt500-1000 {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .three {
+        background: green;
+    }
+
+   .gt1000 {
+        display: inline-block;
+    }
+}
+
+/* max device width */
+@media screen and (max-device-width: 480px) {
+    .iphone {
+        background: #ccc;
+    }
+}
