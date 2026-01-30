@@ -54,5 +54,4 @@
     Session04_Docker_Compose_Spring_Cloud_And_Angular
 
 
-©2019 http://docedit.cn/ WeChat ID: Grails1
 
